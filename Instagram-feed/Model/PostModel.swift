@@ -6,10 +6,10 @@
 //
 import Foundation
 
-enum PostType {
+enum MediaType: Identifiable {
+    var id: UUID { UUID() }
     case photo(imageName: String)
     case video(videoName: String)
-    case photoAndVideo(imageName: String, videoName: String)
 }
 
 struct PostModel: Identifiable {
@@ -17,5 +17,5 @@ struct PostModel: Identifiable {
     let username: String
     let profileImageName: String
     let date: String
-    let type: PostType
+    let media: [MediaType]
 }

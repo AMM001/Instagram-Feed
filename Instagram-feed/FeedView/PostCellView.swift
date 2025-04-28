@@ -6,13 +6,15 @@
 //
 
 import SwiftUI
+import AVKit
 
 struct PostCellView: View {
     let post: PostModel
+    @State private var currentIndex: Int = 0
     
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
-            // Header (profile photo, username, date)
+            // Top profile
             HStack {
                 Image(post.profileImageName)
                     .resizable()
@@ -20,54 +22,56 @@ struct PostCellView: View {
                     .frame(width: 40, height: 40)
                     .clipShape(Circle())
                 
-                VStack(alignment: .leading, spacing: 4) {
+                VStack(alignment: .leading) {
                     Text(post.username)
                         .font(.headline)
                     Text(post.date)
                         .font(.caption)
                         .foregroundColor(.gray)
                 }
+                
                 Spacer()
             }
             
-            // Content (photo / video / photo+video)
-            contentView
-        }
-        .padding()
-        .background(Color.white)
-        .cornerRadius(12)
-        .shadow(color: .black.opacity(0.05), radius: 5, x: 0, y: 4)
-    }
-    
-    @ViewBuilder
-    private var contentView: some View {
-        switch post.type {
-        case .photo(let imageName):
-            Image(imageName)
-                .resizable()
-                .scaledToFit()
-                .cornerRadius(10)
-        case .video(let videoName):
-            AutoPlayVideoPlayer(videoName: videoName)
-        case .photoAndVideo(let imageName, let videoName):
-            VStack(spacing: 8) {
-                Image(imageName)
-                    .resizable()
-                    .scaledToFit()
-                    .cornerRadius(10)
-                AutoPlayVideoPlayer(videoName: videoName)
+            // Horizontal Pager
+            TabView(selection: $currentIndex) {
+                ForEach(Array(post.media.enumerated()), id: \.offset) { index, mediaItem in
+                    Group {
+                        switch mediaItem {
+                        case .photo(let imageName):
+                            Image(imageName)
+                                .resizable()
+                                .scaledToFill()
+                                .frame(width: UIScreen.main.bounds.width, height: 400)
+                                .clipped()
+                        case .video(let videoName):
+                            AutoPlayVideoPlayer(videoName: videoName, play: currentIndex == index)
+                                .frame(width: UIScreen.main.bounds.width, height: 400)
+                        }
+                    }
+                    .tag(index)
+                }
             }
+            .tabViewStyle(.page(indexDisplayMode: .automatic))
+            .frame(height: 400)
+            .clipShape(RoundedRectangle(cornerRadius: 10))
         }
+        .padding(.horizontal)
     }
 }
 
 #Preview(traits: .sizeThatFitsLayout) {
-    PostCellView(post: PostModel(
-        username: "hamza_dev",
-        profileImageName: "user_1",
-        date: "2h ago",
-        type: .photo(imageName: "post_1")
-    ))
+    PostCellView(
+        post: PostModel(
+            username: "hamza_dev",
+            profileImageName: "user_1",
+            date: "2h ago",
+            media: [
+                .photo(imageName: "post_1"),
+                .video(videoName: "reel_1")
+            ]
+        )
+    )
 }
 
 
