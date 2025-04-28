@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84D581962DC005E400A0CACB /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D581952DC005E400A0CACB /* FeedView.swift */; };
+		84D581992DC0061900A0CACB /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D581982DC0061900A0CACB /* FeedViewModel.swift */; };
+		84D5819C2DC0064700A0CACB /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D5819B2DC0064700A0CACB /* PostModel.swift */; };
+		84D5819E2DC0066F00A0CACB /* PostCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D5819D2DC0066F00A0CACB /* PostCellView.swift */; };
+		84D581AC2DC008B000A0CACB /* reel_2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 84D581A52DC008B000A0CACB /* reel_2.mp4 */; };
+		84D581AD2DC008B000A0CACB /* reel_4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 84D581A72DC008B000A0CACB /* reel_4.mp4 */; };
+		84D581AE2DC008B000A0CACB /* reel_7.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 84D581AA2DC008B000A0CACB /* reel_7.mp4 */; };
+		84D581AF2DC008B000A0CACB /* reel_6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 84D581A92DC008B000A0CACB /* reel_6.mp4 */; };
+		84D581B02DC008B000A0CACB /* reel_5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 84D581A82DC008B000A0CACB /* reel_5.mp4 */; };
+		84D581B12DC008B000A0CACB /* reel_3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 84D581A62DC008B000A0CACB /* reel_3.mp4 */; };
+		84D581B22DC008B000A0CACB /* reel_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 84D581A42DC008B000A0CACB /* reel_1.mp4 */; };
+		84D581B32DC0123D00A0CACB /* reel_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 84D581A42DC008B000A0CACB /* reel_1.mp4 */; };
+		84D581B42DC0123D00A0CACB /* reel_2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 84D581A52DC008B000A0CACB /* reel_2.mp4 */; };
+		84D581B52DC0123D00A0CACB /* reel_3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 84D581A62DC008B000A0CACB /* reel_3.mp4 */; };
+		84D581B62DC0123D00A0CACB /* reel_4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 84D581A72DC008B000A0CACB /* reel_4.mp4 */; };
+		84D581B72DC0123D00A0CACB /* reel_5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 84D581A82DC008B000A0CACB /* reel_5.mp4 */; };
+		84D581B82DC0123D00A0CACB /* reel_6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 84D581A92DC008B000A0CACB /* reel_6.mp4 */; };
+		84D581B92DC0123D00A0CACB /* reel_7.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 84D581AA2DC008B000A0CACB /* reel_7.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84D581772DC0035E00A0CACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D5815F2DC0035A00A0CACB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D581662DC0035A00A0CACB;
+			remoteInfo = "Instagram-feed";
+		};
+		84D581812DC0035F00A0CACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D5815F2DC0035A00A0CACB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D581662DC0035A00A0CACB;
+			remoteInfo = "Instagram-feed";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84D581672DC0035A00A0CACB /* Instagram-feed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instagram-feed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D581762DC0035E00A0CACB /* Instagram-feedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Instagram-feedTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D581802DC0035F00A0CACB /* Instagram-feedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Instagram-feedUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D581952DC005E400A0CACB /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		84D581982DC0061900A0CACB /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		84D5819B2DC0064700A0CACB /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		84D5819D2DC0066F00A0CACB /* PostCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCellView.swift; sourceTree = "<group>"; };
+		84D581A42DC008B000A0CACB /* reel_1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = reel_1.mp4; sourceTree = "<group>"; };
+		84D581A52DC008B000A0CACB /* reel_2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = reel_2.mp4; sourceTree = "<group>"; };
+		84D581A62DC008B000A0CACB /* reel_3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = reel_3.mp4; sourceTree = "<group>"; };
+		84D581A72DC008B000A0CACB /* reel_4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = reel_4.mp4; sourceTree = "<group>"; };
+		84D581A82DC008B000A0CACB /* reel_5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = reel_5.mp4; sourceTree = "<group>"; };
+		84D581A92DC008B000A0CACB /* reel_6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = reel_6.mp4; sourceTree = "<group>"; };
+		84D581AA2DC008B000A0CACB /* reel_7.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = reel_7.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		84D581A32DC0069F00A0CACB /* Exceptions for "AutoPlayVideoPlayer" folder in "Instagram-feed" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AutoPlayVideoPlayer.swift,
+			);
+			target = 84D581662DC0035A00A0CACB /* Instagram-feed */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		84D581692DC0035A00A0CACB /* Instagram-feed */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Instagram-feed";
+			sourceTree = "<group>";
+		};
+		84D581792DC0035E00A0CACB /* Instagram-feedTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Instagram-feedTests";
+			sourceTree = "<group>";
+		};
+		84D581832DC0035F00A0CACB /* Instagram-feedUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Instagram-feedUITests";
+			sourceTree = "<group>";
+		};
+		84D5819F2DC0068D00A0CACB /* AutoPlayVideoPlayer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				84D581A32DC0069F00A0CACB /* Exceptions for "AutoPlayVideoPlayer" folder in "Instagram-feed" target */,
+			);
+			path = AutoPlayVideoPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84D581642DC0035A00A0CACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D581732DC0035E00A0CACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D5817D2DC0035F00A0CACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84D5815E2DC0035A00A0CACB = {
+			isa = PBXGroup;
+			children = (
+				84D581AB2DC008B000A0CACB /* Videos */,
+				84D5819F2DC0068D00A0CACB /* AutoPlayVideoPlayer */,
+				84D5819A2DC0062F00A0CACB /* Model */,
+				84D581972DC0060900A0CACB /* FeedViewModel */,
+				84D581942DC005BF00A0CACB /* FeedView */,
+				84D581932DC0054F00A0CACB /* Instagram-feed-Helper */,
+				84D581792DC0035E00A0CACB /* Instagram-feedTests */,
+				84D581832DC0035F00A0CACB /* Instagram-feedUITests */,
+				84D581682DC0035A00A0CACB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84D581682DC0035A00A0CACB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D581672DC0035A00A0CACB /* Instagram-feed.app */,
+				84D581762DC0035E00A0CACB /* Instagram-feedTests.xctest */,
+				84D581802DC0035F00A0CACB /* Instagram-feedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84D581932DC0054F00A0CACB /* Instagram-feed-Helper */ = {
+			isa = PBXGroup;
+			children = (
+				84D581692DC0035A00A0CACB /* Instagram-feed */,
+			);
+			path = "Instagram-feed-Helper";
+			sourceTree = "<group>";
+		};
+		84D581942DC005BF00A0CACB /* FeedView */ = {
+			isa = PBXGroup;
+			children = (
+				84D581952DC005E400A0CACB /* FeedView.swift */,
+				84D5819D2DC0066F00A0CACB /* PostCellView.swift */,
+			);
+			path = FeedView;
+			sourceTree = "<group>";
+		};
+		84D581972DC0060900A0CACB /* FeedViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				84D581982DC0061900A0CACB /* FeedViewModel.swift */,
+			);
+			path = FeedViewModel;
+			sourceTree = "<group>";
+		};
+		84D5819A2DC0062F00A0CACB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84D5819B2DC0064700A0CACB /* PostModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84D581AB2DC008B000A0CACB /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				84D581A42DC008B000A0CACB /* reel_1.mp4 */,
+				84D581A52DC008B000A0CACB /* reel_2.mp4 */,
+				84D581A62DC008B000A0CACB /* reel_3.mp4 */,
+				84D581A72DC008B000A0CACB /* reel_4.mp4 */,
+				84D581A82DC008B000A0CACB /* reel_5.mp4 */,
+				84D581A92DC008B000A0CACB /* reel_6.mp4 */,
+				84D581AA2DC008B000A0CACB /* reel_7.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84D581662DC0035A00A0CACB /* Instagram-feed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D5818A2DC0035F00A0CACB /* Build configuration list for PBXNativeTarget "Instagram-feed" */;
+			buildPhases = (
+				84D581632DC0035A00A0CACB /* Sources */,
+				84D581642DC0035A00A0CACB /* Frameworks */,
+				84D581652DC0035A00A0CACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				84D581692DC0035A00A0CACB /* Instagram-feed */,
+			);
+			name = "Instagram-feed";
+			packageProductDependencies = (
+			);
+			productName = "Instagram-feed";
+			productReference = 84D581672DC0035A00A0CACB /* Instagram-feed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84D581752DC0035E00A0CACB /* Instagram-feedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D5818D2DC0035F00A0CACB /* Build configuration list for PBXNativeTarget "Instagram-feedTests" */;
+			buildPhases = (
+				84D581722DC0035E00A0CACB /* Sources */,
+				84D581732DC0035E00A0CACB /* Frameworks */,
+				84D581742DC0035E00A0CACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D581782DC0035E00A0CACB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				84D581792DC0035E00A0CACB /* Instagram-feedTests */,
+				84D5819F2DC0068D00A0CACB /* AutoPlayVideoPlayer */,
+			);
+			name = "Instagram-feedTests";
+			packageProductDependencies = (
+			);
+			productName = "Instagram-feedTests";
+			productReference = 84D581762DC0035E00A0CACB /* Instagram-feedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84D5817F2DC0035F00A0CACB /* Instagram-feedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D581902DC0035F00A0CACB /* Build configuration list for PBXNativeTarget "Instagram-feedUITests" */;
+			buildPhases = (
+				84D5817C2DC0035F00A0CACB /* Sources */,
+				84D5817D2DC0035F00A0CACB /* Frameworks */,
+				84D5817E2DC0035F00A0CACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D581822DC0035F00A0CACB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				84D581832DC0035F00A0CACB /* Instagram-feedUITests */,
+			);
+			name = "Instagram-feedUITests";
+			packageProductDependencies = (
+			);
+			productName = "Instagram-feedUITests";
+			productReference = 84D581802DC0035F00A0CACB /* Instagram-feedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84D5815F2DC0035A00A0CACB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					84D581662DC0035A00A0CACB = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					84D581752DC0035E00A0CACB = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 84D581662DC0035A00A0CACB;
+					};
+					84D5817F2DC0035F00A0CACB = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 84D581662DC0035A00A0CACB;
+					};
+				};
+			};
+			buildConfigurationList = 84D581622DC0035A00A0CACB /* Build configuration list for PBXProject "Instagram-feed" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84D5815E2DC0035A00A0CACB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 84D581682DC0035A00A0CACB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84D581662DC0035A00A0CACB /* Instagram-feed */,
+				84D581752DC0035E00A0CACB /* Instagram-feedTests */,
+				84D5817F2DC0035F00A0CACB /* Instagram-feedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84D581652DC0035A00A0CACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D581B32DC0123D00A0CACB /* reel_1.mp4 in Resources */,
+				84D581B42DC0123D00A0CACB /* reel_2.mp4 in Resources */,
+				84D581B52DC0123D00A0CACB /* reel_3.mp4 in Resources */,
+				84D581B62DC0123D00A0CACB /* reel_4.mp4 in Resources */,
+				84D581B72DC0123D00A0CACB /* reel_5.mp4 in Resources */,
+				84D581B82DC0123D00A0CACB /* reel_6.mp4 in Resources */,
+				84D581B92DC0123D00A0CACB /* reel_7.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D581742DC0035E00A0CACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D581AC2DC008B000A0CACB /* reel_2.mp4 in Resources */,
+				84D581AD2DC008B000A0CACB /* reel_4.mp4 in Resources */,
+				84D581AE2DC008B000A0CACB /* reel_7.mp4 in Resources */,
+				84D581AF2DC008B000A0CACB /* reel_6.mp4 in Resources */,
+				84D581B02DC008B000A0CACB /* reel_5.mp4 in Resources */,
+				84D581B12DC008B000A0CACB /* reel_3.mp4 in Resources */,
+				84D581B22DC008B000A0CACB /* reel_1.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D5817E2DC0035F00A0CACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84D581632DC0035A00A0CACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D5819E2DC0066F00A0CACB /* PostCellView.swift in Sources */,
+				84D581992DC0061900A0CACB /* FeedViewModel.swift in Sources */,
+				84D5819C2DC0064700A0CACB /* PostModel.swift in Sources */,
+				84D581962DC005E400A0CACB /* FeedView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D581722DC0035E00A0CACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D5817C2DC0035F00A0CACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84D581782DC0035E00A0CACB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D581662DC0035A00A0CACB /* Instagram-feed */;
+			targetProxy = 84D581772DC0035E00A0CACB /* PBXContainerItemProxy */;
+		};
+		84D581822DC0035F00A0CACB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D581662DC0035A00A0CACB /* Instagram-feed */;
+			targetProxy = 84D581812DC0035F00A0CACB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84D581882DC0035F00A0CACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = V3QC3T7D4B;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84D581892DC0035F00A0CACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = V3QC3T7D4B;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84D5818B2DC0035F00A0CACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V3QC3T7D4B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=iphoneos*]" = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Instagram-feed-Task.Instagram-feed";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84D5818C2DC0035F00A0CACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V3QC3T7D4B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Instagram-feed-Task.Instagram-feed";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84D5818E2DC0035F00A0CACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V3QC3T7D4B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Instagram-feed-Task.Instagram-feedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instagram-feed.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Instagram-feed";
+			};
+			name = Debug;
+		};
+		84D5818F2DC0035F00A0CACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V3QC3T7D4B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Instagram-feed-Task.Instagram-feedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instagram-feed.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Instagram-feed";
+			};
+			name = Release;
+		};
+		84D581912DC0035F00A0CACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V3QC3T7D4B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Instagram-feed-Task.Instagram-feedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Instagram-feed";
+			};
+			name = Debug;
+		};
+		84D581922DC0035F00A0CACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V3QC3T7D4B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Instagram-feed-Task.Instagram-feedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Instagram-feed";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D581622DC0035A00A0CACB /* Build configuration list for PBXProject "Instagram-feed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D581882DC0035F00A0CACB /* Debug */,
+				84D581892DC0035F00A0CACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D5818A2DC0035F00A0CACB /* Build configuration list for PBXNativeTarget "Instagram-feed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D5818B2DC0035F00A0CACB /* Debug */,
+				84D5818C2DC0035F00A0CACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D5818D2DC0035F00A0CACB /* Build configuration list for PBXNativeTarget "Instagram-feedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D5818E2DC0035F00A0CACB /* Debug */,
+				84D5818F2DC0035F00A0CACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D581902DC0035F00A0CACB /* Build configuration list for PBXNativeTarget "Instagram-feedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D581912DC0035F00A0CACB /* Debug */,
+				84D581922DC0035F00A0CACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84D5815F2DC0035A00A0CACB /* Project object */;
+}
