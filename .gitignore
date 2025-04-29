@@ -60,3 +60,5 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+Instagram-feed/FeedView/PrefetchableImageView.swift
+Instagram-feed/FeedView/PrefetchableVideoView.swift

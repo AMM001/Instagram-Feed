@@ -16,8 +16,7 @@ struct PostCellView: View {
         VStack(alignment: .leading, spacing: 8) {
             // Top profile
             HStack {
-                Image(post.profileImageName)
-                    .resizable()
+                CachedImageView(imageName: post.profileImageName)
                     .scaledToFill()
                     .frame(width: 40, height: 40)
                     .clipShape(Circle())
@@ -39,8 +38,7 @@ struct PostCellView: View {
                     Group {
                         switch mediaItem {
                         case .photo(let imageName):
-                            Image(imageName)
-                                .resizable()
+                            CachedImageView(imageName: imageName)
                                 .scaledToFill()
                                 .frame(width: UIScreen.main.bounds.width, height: 400)
                                 .clipped()
