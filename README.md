@@ -4,8 +4,6 @@ The goal is to create a dynamic and responsive feed that demonstrates your abili
 
 - Swift UI + MVVM 
 - Create a ImageCacheManager : using NSCache.
-- Use AsyncImage with cache instead of reloading every time.
-- Using .prefetch : helps load images and videos before they’re fully visible on the screen
 
 ✅ Super smooth scrolling.
 
